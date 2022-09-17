@@ -1,0 +1,111 @@
+/* ***************** */
+/* NAVIGATION BAR */
+/* ***************** */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 100%;
+    background-color: #fff;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .navbar-logo,
+  .nav-link {
+    display: inline-block;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    padding: 8px 16px;
+  }
+  
+  .navbar-logo:hover,
+  .nav-link:hover {
+    background-color: #ccc;
+  }
+  
+  .navbar-nav {
+    display: flex;
+  }
+  
+  /* ***************** */
+  /* HEADER */
+  /* ***************** */
+  .header {
+    position: relative;
+  }
+  
+  .header-img {
+    width: 100%;
+  }
+  
+  /* ***************** */
+  /* PROJECTS */
+  /* ***************** */
+  .project-grid,
+  .about-grid {
+    padding: 0 16px;
+    margin-bottom: 16px;
+  }
+  
+  .project-item {
+    position: relative;
+  }
+  
+  .project-img {
+    width: 100%;
+  }
+  
+  .project-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+  }
+  
+  /* ***************** */
+  /* ABOUT */
+  /* ***************** */
+  
+  /* ***************** */
+  /* MAP */
+  /* ***************** */
+  .map {
+    padding: 0 16px;
+  }
+  
+  .map-img {
+    width: 100%;
+  }
+  
+  /* ***************** */
+  /* FOOTER */
+  /* ***************** */
+  .footer {
+    padding: 16px 0;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .copyright {
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  .copyright a {
+    text-decoration: underline;
+  }
+  
+  .copyright a:hover {
+    color: #4caf50;
+  }
+  
